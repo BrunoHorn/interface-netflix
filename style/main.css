@@ -1,0 +1,52 @@
+:root{
+    --vermelho: #E50914;
+    --preta   : #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /** não deixa o elemento passar o tamanho da caixa**/
+}
+
+body{
+background : var(--preta);
+font-family: 'Times New Roman', Times, serif;
+color: white;
+}
+
+header .conteiner{
+    display:flex;                  /** Deixa os elementos na mesma linha**/
+    flex-direction: row;           /** Deixa os elementos na mesma linha**/
+    align-items:center ;           /** alinha ao centro**/
+    justify-content: space-around;
+    
+    border: 1px solid black;
+}
+
+header .logon {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial black', Times ;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;   
+}
+
+header nav a:hover{   /** Variação de cor se o mouse passa em cima**/
+    color: #fff;
+}
+.filme-principal{
+    font-size:  16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)), url('../img/fundoduna.jpg');
+
+
+    height: 500px;
+    background-size: cover;   
+}
+
+ /** filme principal**/
