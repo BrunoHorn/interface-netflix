@@ -54,7 +54,10 @@ header nav a:hover{   /** Variação de cor se o mouse passa em cima**/
     align-items: flex-start; /** Vfaz começar da esquerda**/
 
 }
-.filme-principal.descricao{
-    margin-bottom: 90px;
+.filme-principal .descricao{
+    margin-bottom: 40px;
 }
 
+.titulo{
+   font-size: 50px; 
+}
