@@ -40,13 +40,21 @@ header nav a{
 header nav a:hover{   /** Variação de cor se o mouse passa em cima**/
     color: #fff;
 }
+ /** filme principal**/
 .filme-principal{
     font-size:  16px;
     background: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)), url('../img/fundoduna.jpg');
 
-
     height: 500px;
     background-size: cover;   
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /** Vfaz começar da esquerda**/
+
+}
+.filme-principal.descricao{
+    margin-bottom: 90px;
 }
 
- /** filme principal**/
