@@ -11,11 +11,11 @@
 
 body{
 background : var(--preta);
-font-family: 'Times New Roman', Times, serif;
+font-family: 'Arial', Times, serif;
 color: white;
 }
 
-header .conteiner{
+header .container{
     display:flex;                  /** Deixa os elementos na mesma linha**/
     flex-direction: row;           /** Deixa os elementos na mesma linha**/
     align-items:center ;           /** alinha ao centro**/
@@ -25,7 +25,7 @@ header .conteiner{
 }
 
 header .logon {
-    margin-left: 5px;
+    
     color: var(--vermelho);
     font-family: 'Arial black', Times ;
     font-size: 40px;
@@ -55,9 +55,51 @@ header nav a:hover{   /** Variação de cor se o mouse passa em cima**/
 
 }
 .filme-principal .descricao{
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
 .titulo{
+   margin-top: 15%;
    font-size: 50px; 
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    color: white;
+
+    padding: 15px ;/** cuida do espaço interno do botão **/
+    margin-right: 15px;
+    font-size: 12px;
+   
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+.filme-principal .container{
+    width: 60%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
 }
